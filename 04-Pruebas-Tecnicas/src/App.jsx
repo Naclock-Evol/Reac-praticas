@@ -2,7 +2,7 @@ import './App.css'
 import { useCatFact } from './hooks/useCatFact'
 import { useCatImg } from './hooks/useCatImage'
 
-export function App () {
+function App () {
   const { fact, refreshFact } = useCatFact()
   const { imag } = useCatImg({ fact })
 
@@ -19,3 +19,5 @@ export function App () {
     </main>
   )
 }
+
+export default App
