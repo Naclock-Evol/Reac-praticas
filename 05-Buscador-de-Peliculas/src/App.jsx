@@ -43,7 +43,7 @@ function App() {
   const { movies, loading, getMovies } = useMovies({ search, sort })
 
   const debouncedGetMovies = useMemo(() => {
-    debounce(search => {
+    return debounce(search => {
       getMovies({ search })
     }, 400)
   },[getMovies])
