@@ -1,5 +1,5 @@
 
-import './App.css'
+import './style/App.css'
 import {  useEffect, useMemo, useRef, useState } from 'react'
 import { Movies } from './components/Movies'
 import { useMovies } from './hooks/useMovies'
