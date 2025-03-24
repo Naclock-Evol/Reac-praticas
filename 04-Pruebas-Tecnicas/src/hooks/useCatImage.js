@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export function useCatImg ({ fact }) {
-  const [imag, setImag] = useState()
+  const [image, setImage] = useState()
 
   useEffect(() => {
     if (!fact) return
@@ -12,8 +12,8 @@ export function useCatImg ({ fact }) {
       .then(res => res.json())
       .then(response => {
         const { url } = response
-        setImag(url)
+        setImage(url)
       })
   }, [fact])
-  return { imag }
+  return { image }
 }

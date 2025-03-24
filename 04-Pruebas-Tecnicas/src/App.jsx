@@ -4,7 +4,7 @@ import { useCatImg } from './hooks/useCatImage'
 
 function App () {
   const { fact, refreshFact } = useCatFact()
-  const { imag } = useCatImg({ fact })
+  const { image } = useCatImg({ fact })
 
   const handleClick = async () => {
     refreshFact()
@@ -15,7 +15,7 @@ function App () {
       <h1>cat curiosities</h1>
       <button onClick={handleClick}>Get new Fact</button>
       {fact && <p>{fact}</p>}
-      {imag && <img src={imag} alt={`Image extracted using the first words for ${fact} `} />}
+      {image && <img src={image} alt={`Image extracted using the first words for ${fact} `} />}
     </main>
   )
 }
