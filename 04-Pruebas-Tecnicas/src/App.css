@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: o auto;
+  font-family: system-ui;
+}
+
+main img {
+  max-width: 1060px;
+  height: auto;
+}
+
+button {
+  height: 50px;
+  width: 170px;
+  border: 1.5px solid #000;
+  font-size: 20px;
+  box-shadow: 8px 8px 7px #888;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: rgba(1, 1, 1, 0.299);
+  color: #ffffff;
+}
