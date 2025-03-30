@@ -1,0 +1,28 @@
+.filtros{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rangoPrecio{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+  width: 180px;
+  font-size: 14px;
+  
+}
+
+.cantidadPrecio{
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.listaCategoría{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 14px;
+}

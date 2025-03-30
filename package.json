@@ -1,5 +1,5 @@
 {
-  "name": "reac-praticas",
+  "name": "react-practicas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Naclock-Evol/Reac-praticas.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marlon Medina",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
